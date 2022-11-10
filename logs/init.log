@@ -11,7 +11,42 @@ INFO [11-10|17:02:07.486] Opened ancient database                  database=C:\U
 INFO [11-10|17:02:07.486] Writing custom genesis block
 INFO [11-10|17:02:07.492] Persisted trie from memory database      nodes=354 size=50.23KiB time=1.5509ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
 INFO [11-10|17:02:07.494] Successfully wrote genesis state         database=lightchaindata hash=32e1c2..be1962
-PS C:\Users\hai.ngodang\Code\learn-eth\private>
+PS C:\Users\hai.ngodang\Code\learn-eth\private> geth --datadir . account new           
+INFO [11-10|17:07:55.716] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password:
+Repeat password: 
+Fatal: Passwords do not match
+PS C:\Users\hai.ngodang\Code\learn-eth\private> geth --datadir . account new
+INFO [11-10|17:08:24.870] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password: password1234
+Repeat password: password1234
+
+Your new key was generated
+
+Public address of the key:   0xDe0997c6E7f9cb641b370852b4aAa8614D3D9d9b
+Path of the secret key file: keystore\UTC--2022-11-10T10-08-34.444439500Z--de0997c6e7f9cb641b370852b4aaa8614d3d9d9b
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+PS C:\Users\hai.ngodang\Code\learn-eth\private> geth --datadir . account new
+INFO [11-10|17:09:54.918] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password: pass1234
+Repeat password: pass1234
+
+Your new key was generated
+
+Public address of the key:   0x986Cce02d64b303133f2a76b9f65fe8b3DBA0a42
+Path of the secret key file: keystore\UTC--2022-11-10T10-10-01.075100100Z--986cce02d64b303133f2a76b9f65fe8b3dba0a42
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 
 
 

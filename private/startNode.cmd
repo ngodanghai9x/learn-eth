@@ -1,0 +1,1 @@
+geth --networkid 1506 --mine --miner.threads 2 --datadir "." --nodiscover --rpc --rpc.port "8545" --port "30303" --rpc.corsdomain "*" --nat "any" --rpc.api eth,web3,personal,net --unlock 0 --password ./password.sec  --allow-insecure-unlock

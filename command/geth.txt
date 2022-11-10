@@ -1,0 +1,3 @@
+geth --datadir . init .\better.eth.json
+geth --datadir . account new
+geth --datadir . account list
