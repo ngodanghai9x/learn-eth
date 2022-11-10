@@ -1,0 +1,17 @@
+PS C:\Users\hai.ngodang\Code\learn-eth\private> geth --datadir . init .\better.eth.json
+INFO [11-10|17:02:07.393] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-10|17:02:07.398] Set global gas cap                       cap=50,000,000
+INFO [11-10|17:02:07.400] Allocated cache and file handles         database=C:\Users\hai.ngodang\Code\learn-eth\private\geth\chaindata cache=16.00MiB handles=16
+INFO [11-10|17:02:07.432] Opened ancient database                  database=C:\Users\hai.ngodang\Code\learn-eth\private\geth\chaindata\ancient/chain readonly=false
+INFO [11-10|17:02:07.432] Writing custom genesis block
+INFO [11-10|17:02:07.448] Persisted trie from memory database      nodes=354 size=50.23KiB time=2.189ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-10|17:02:07.450] Successfully wrote genesis state         database=chaindata hash=32e1c2..be1962
+INFO [11-10|17:02:07.451] Allocated cache and file handles         database=C:\Users\hai.ngodang\Code\learn-eth\private\geth\lightchaindata cache=16.00MiB handles=16
+INFO [11-10|17:02:07.486] Opened ancient database                  database=C:\Users\hai.ngodang\Code\learn-eth\private\geth\lightchaindata\ancient/chain readonly=false
+INFO [11-10|17:02:07.486] Writing custom genesis block
+INFO [11-10|17:02:07.492] Persisted trie from memory database      nodes=354 size=50.23KiB time=1.5509ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-10|17:02:07.494] Successfully wrote genesis state         database=lightchaindata hash=32e1c2..be1962
+PS C:\Users\hai.ngodang\Code\learn-eth\private>
+
+
+
